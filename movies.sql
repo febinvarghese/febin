@@ -9,7 +9,7 @@ create table `intresting movies` (
 	`movie name` varchar (135),
 	`lead actor` varchar (135),
 	`lead actress` varchar (135),
-	`year of release` double ,
+	`year of release` int (30) ,
 	`director name` varchar (135)
 ); 
 insert into `intresting movies` (`movie name`, `lead actor`, `lead actress`, `year of release`, `director name`) values('Django Unchained','Kerry Washington','Jamie Foxx','2021','Quentin Tarantino');
